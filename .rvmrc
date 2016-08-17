@@ -1,0 +1,9 @@
+# if rvm is not installed, this file does nothing. If rvm is configured with
+# default to be system ruby you might give this file the middle finger
+
+# its purpose is not related to rvm at all though. we use it as a shell script
+# to activate the right version of node, which you can find in .nvmrc
+
+# the only reason for the Using /Users/joshua/.rvm/gems/ruby-2.2.1 is to keep the global gemset set to global
+
+rvm use default && nvm use

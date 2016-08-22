@@ -1,0 +1,13 @@
+*.gem
+.DS_Store
+.bundle
+.config
+_site
+dist
+www
+tmp
+bower_components
+node_modules
+bundle
+npm-debug.log
+app/assets/css/**/*.css

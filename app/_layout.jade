@@ -1,0 +1,13 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="/assets/css/main.css")
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='robots' content='noindex, nofollow')
+
+  body
+    include partials/_svg.jade
+
+    .container
+      block content
+        != yield

@@ -11,3 +11,4 @@ node_modules
 bundle
 npm-debug.log
 app/assets/css/**/*.css
+app/assets/dest/svg.svg

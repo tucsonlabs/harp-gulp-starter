@@ -7,18 +7,18 @@ module.exports = {
     proxy: "http://127.0.0.1:9000/"
   },
   sass: {
-    src: src + '/assets/sass/**/**/*.{sass,scss}',
+    src: src + '/assets/scss/**/*.{sass,scss}',
     dest: dest + '/assets/css/',
     settings: {
-      indentedSyntax: true,
-      imagePath: 'assets/img',
+      indentedSyntax: false,
+      imagePath: 'assets/images',
       errLogToConsole: false,
       sourceComments : 'normal'
     }
   },
   images: {
-    src: src + '/img/**',
-    dest: dest + 'dist/img'
+    src: src + '/assets/images/**',
+    dest: dest + '/dist/images'
   },
   production: {
     cssSrc: '../*.css',
@@ -33,7 +33,7 @@ module.exports = {
     md: src + '/**/*.md'
   },
   js: {
-    src: src + '/js/**/*.js'
+    src: src + '/assets/js/**/*.js'
   },
   svg: {
     dest: dest + '/assets/dest/*.svg'

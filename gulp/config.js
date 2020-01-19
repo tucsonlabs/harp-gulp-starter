@@ -4,7 +4,7 @@ var src = path.join(__dirname, '../app')
 
 module.exports = {
   browserSync: {
-    proxy: "http://127.0.0.1:9000/"
+    proxy: "http://127.0.0.1:9098/"
   },
   sass: {
     src: src + '/assets/scss/**/*.{sass,scss}',

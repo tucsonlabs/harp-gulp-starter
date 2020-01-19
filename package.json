@@ -7,7 +7,7 @@
     "node": ">= 4.5.0"
   },
   "scripts": {
-    "start": "cd ./app && ../node_modules/.bin/harp server",
+    "start": "cd ./app && ../node_modules/.bin/harp server --port 9098",
     "watch": "gulp"
   },
   "author": "Joshua Williams <josh@tucsonlabs.com> (http://tucsonlabs.com)",
